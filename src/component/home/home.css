@@ -1,0 +1,29 @@
+.home{
+    text-align: center;
+    padding: 20px;
+}
+.home img {
+    margin: 20px auto;
+}
+.homeImg{
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+}
+.home a {
+    margin: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.logo:hover {
+    transform: scale(1.5);
+}
+
+.quote{
+    padding: 5px;
+    font-family: 'Courgette',cursive;
+    color: rgb(18, 18, 194);
+}

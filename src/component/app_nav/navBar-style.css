@@ -1,6 +1,7 @@
-.nav_icon {
-    font-size: 40px;
+.app_nav .menu {
+    display: none;
 }
+
 .app_nav {
     position: fixed; top:0; left:0; right:0; z-index: 10;
     height: 77px;
@@ -9,13 +10,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-    background-color:#283593 ; 
+    background-color:rgb(12,10,104) ; 
     color: white;
     overflow: hidden;
 }
 .app_nav h1 {
     text-align: left;
-    width: 60% ;
+    font-size: 20px;
 }
 
 .dropdown {
@@ -39,23 +40,8 @@
     color: black;
 }
 
-.app_nav .menu {
-    display: none;
-}
-/*
-.Header-not-logged-in, .Header-logged-in {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.Header-logged-in a:nth-child(1) {
-    color: rgb(243, 113, 113);
-}
-.Header-logged-in a:nth-child(2) {
-    color: greenyellow
-}*/
-@media screen and (min-width: 815px) {
+
+@media screen and (min-width: 690px) {
     .app_nav .menu  {
         display: flex;
         width: 30%;

@@ -1,0 +1,100 @@
+.bio nav{
+    display: flex;
+    text-align: center;
+}
+.bio nav span{
+    width: 50%;
+    padding: 12px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+}
+.bio .active{
+    background-color: rgb(57,75,87);
+}
+.aboutMe {
+    padding: 15px;
+    max-width: 750px;
+    margin: 10px auto;
+}
+.aboutMe section{
+    margin-bottom: 15px;
+}
+.aboutMe h2{
+    color: white;
+    background-color: rgb(3,125,174);
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.aboutMe h3{
+    font-size: 18px;
+    color: rgb(141, 96, 13);
+}
+.text {
+    color: rgb(3,125,174);
+    padding: 10px;
+}
+.text p {
+    display: flex;
+    padding: 5px;
+}
+.text svg {
+    width: 15%;
+}
+.skills {
+    margin-top: 15px;
+}
+.skill {
+    margin-top: 15px;
+}
+.techLogos {
+    display: flex;
+    padding: 15px;
+}
+.techLogos img {
+    width: 70px;
+    height: auto;
+}
+.awesome {
+    font-size: 15px;
+    margin-right: 15px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.profile{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.profile div {
+    margin: 20px auto;
+    width: 280px;
+
+}
+.profile img {
+    width: 280px;
+    height: 350px
+}
+
+@media screen and (min-width:680px) {
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .profile {
+        display: flex;   
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (min-width:900px){
+    .aboutMe {
+        border-style: solid;
+        border-color: cadetblue;
+        border-width: thin;
+    }
+}

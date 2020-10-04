@@ -16,10 +16,10 @@ export default class NavBar extends Component{
 
     renderLinks(){
         return(
-            <div className='Header-not-logged-in' onClick={this.closeDropdown}>
-                <Link to='/bio' aria-label='bio-page'>Bio </Link>
-                <Link to='/project' aria-label='project-page' > Projects</Link>
+            <div onClick={this.closeDropdown}>
                 <Link to='/connect' aria-label='project-page' > Connect</Link>  
+                <Link to='/project' aria-label='project-page' > Projects</Link>
+                <Link to='/bio' aria-label='bio-page'>Bio </Link>
             </div>
         )
     }

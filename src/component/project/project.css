@@ -1,0 +1,45 @@
+.projects  {
+    margin-top: 50px;
+}
+
+.projects h2 {
+    color:  rgb(39,10,121);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.projects_nav, .project_nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects_nav {
+    margin-bottom: 15px;
+}
+
+.projects_nav a {
+    background-color: cadetblue;
+    display: flex; align-items: center; justify-content: center;
+    padding: 5px; width: 33.3%; height: 50px; 
+    border-style: solid; border-width: thin;
+    color: white;
+}
+.project_nav {
+    border-style: solid;
+}
+.project_nav span {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.highlighted {
+    background-color: rgb(39,10,121);
+    color: white
+}
+.projects_nav .active{
+    background-color: red;
+}

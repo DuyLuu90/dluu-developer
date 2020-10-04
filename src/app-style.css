@@ -3,14 +3,14 @@
   font-family: Arial, Helvetica, sans-serif;
 	padding: 0;margin: 0;
   overflow-x: hidden;
-  text-align: center;
+  
 }
 .App_main {
   min-height: 100vh;
-  margin-top: 100px;
+  margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  
 }
 /*
 .content{
