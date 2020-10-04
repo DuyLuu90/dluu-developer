@@ -12,7 +12,7 @@
 .bio .active{
     background-color: rgb(57,75,87);
 }
-.aboutMe {
+.aboutMe, .gallery {
     padding: 15px;
     max-width: 750px;
     margin: 10px auto;
@@ -20,7 +20,7 @@
 .aboutMe section{
     margin-bottom: 15px;
 }
-.aboutMe h2{
+section h2{
     color: white;
     background-color: rgb(3,125,174);
     padding: 5px;
@@ -32,7 +32,8 @@
     color: rgb(141, 96, 13);
 }
 .text {
-    color: rgb(3,125,174);
+    color: rgb(6, 116, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
 .text p {
@@ -65,7 +66,6 @@
 
 .profile{
     text-align: center;
-    padding: 20px;
     margin-top: 20px;
 }
 .profile div {
@@ -76,6 +76,11 @@
 .profile img {
     width: 280px;
     height: 350px
+}
+.profile p{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 5px;
 }
 
 @media screen and (min-width:680px) {

@@ -18,13 +18,19 @@
     margin-bottom: 15px;
 }
 
-.projects_nav a {
+.projects_nav span {
     background-color: cadetblue;
     display: flex; align-items: center; justify-content: center;
     padding: 5px; width: 33.3%; height: 50px; 
     border-style: solid; border-width: thin;
     color: white;
 }
+.projects_nav span:hover {
+    background-color: orange;
+    cursor: pointer;
+    color: black;
+}
+
 .project_nav {
     border-style: solid;
 }
@@ -42,4 +48,66 @@
 }
 .projects_nav .active{
     background-color: red;
+}
+
+.summary, .screenshots {
+    margin-top: 15px;
+}
+.summary h3 {
+    color: white;
+    background-color: rgb(3,125,174);
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.summary div {
+    padding: 10px;
+}
+.summary p{
+    display: flex;
+    margin-bottom: 10px;
+}
+.summary a {
+    color:rgb(3,125,174);
+    font-weight: bold;
+}
+.summary a:hover{
+    color: orange;
+}
+.screenshots div {
+    text-align: center;
+    margin: 15px auto;
+    width: 90%;
+    padding: 15px;
+    border-style: solid; border-width: thin;
+    border-color: rgb(39,10,121);
+}
+.screenshots img {
+    width: 75%;
+    height: auto;
+}
+
+@media screen and (min-width:700px) {
+    .projects>div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .projects h2{
+        width: 40%;
+        text-align: center;
+    }
+    .projects_nav{
+        flex-direction: column;
+        width: 35%;
+    }
+    .project {
+        width: 60%;
+    }
+    .projects_nav span{
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 60px;
+        font-size: 20px;
+        overflow: hidden;
+    }
 }

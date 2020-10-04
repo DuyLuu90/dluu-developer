@@ -24,7 +24,7 @@ export const logos=[
 export const projects=[
     {
         name:'travelPocket',
-        overview:'A convenient application that allows users to select one of thousands cities in the world and see what is happening for that city in just one click. Users will also be able to select any date and see the top destinations (domestic/international) from that city.',
+        overview:'This convenient application allows users to select one of thousands cities in the world and see what is happening for that city in just one click. Users will also be able to select any date and see the top destinations (domestic/international) from that city.',
         features:[
             'Google Map API to see the location of the airport that serves the city',
             "Youtube API to see the top trending videos in the country",
@@ -33,7 +33,7 @@ export const projects=[
 
         ],
         links:[
-            {name:'Live', url:'https://duyluu90.github.io/API-HACK-CAPSTONE/'},
+            {name:'LIVE', url:'https://duyluu90.github.io/API-HACK-CAPSTONE/'},
             {name:'Github', url:'https://github.com/DuyLuu90/API-HACK-CAPSTONE'}
 
         ],
@@ -45,7 +45,7 @@ export const projects=[
     },
     {
         name:'dramaPedia',
-        overview:'This is my first full stack capstone, as a junior Developer, to demonstrate my mastery of React, Node and PostgresSQL, . For this capstone, I built both the client and the API to support the app. Inspired by many awesome online movie websites, my app allows users to see a variety of Films/TV Series from many countries around the world. For user convenience, my app has feature to sort them by genres, year and country of origin.',
+        overview:'This is my first full stack capstone, as a junior Developer, to demonstrate my mastery of React, Node and PostgresSQL. For this capstone, I built both the client and the API to support the app. Inspired by many awesome online movie websites, my app allows users to see a variety of Films/TV Series from many countries around the world. For user convenience, my app has feature to sort them by genres, year and country of origin.',
         features:[
             'Movie details, user pages, artist pages',
             'Create, edit, delete user info',
@@ -54,7 +54,7 @@ export const projects=[
             'FOR ADMIN: data management, publish/ubpublish a movie, block/unblock a user'
         ],
         links:[
-            {name:'Live', url:'https://drama-pedia.vercel.app/'},
+            {name:'LIVE', url:'https://drama-pedia.vercel.app/'},
             {name:'Client', url:'https://github.com/DuyLuu90/First-Capstone-Client'},
             {name:'Server', url:'https://github.com/DuyLuu90/First-Capstone-Server'},
 
@@ -74,7 +74,7 @@ export const projects=[
             "Username/password retrieval"
         ],
         links:[
-            {name:'Live', url:'https://calorie-counter-client.vercel.app/'},
+            {name:'LIVE', url:'https://calorie-counter-client.vercel.app/'},
             {name:'Client', url:'https://github.com/DuyLuu90/myCalories-client'},
             {name:'Server', url:'https://github.com/DuyLuu90/myCalories-server'},
         ],

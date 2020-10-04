@@ -9,15 +9,31 @@ export default class Bio extends Component{
     }
     renderGallery=()=>{
         return(
-            <div className='profile'>
-                <div>
-                    <img className='avatar' alt='avatar' src='/assets/pictures/profile.png'/>
-                    <p>Nha Trang, Vietnam</p>
-                </div>
-                <div>
-                    <img className='avatar' alt='avatar' src='/assets/pictures/profile3.png'/>
-                    <p>Osaka, Japan</p>
-                </div>
+            <div className='gallery'>
+                <section>
+                    <h2>Introduction</h2>
+                    <div className='text'>
+                        <p>
+                            <FontAwesomeIcon icon='user-ninja' className='awesome'/>
+                            I am Duy Luu. My name, in Vietnamese, means "UNIQUE" or "ONLY ONE". I have been coding for about a year and I love how it lets me see my untapped potential, uncovers my creativity, and keeps me awake at night. 
+                        </p>
+                        <p>
+                            <FontAwesomeIcon icon='plane' className='awesome'/>I also love airplanes, and when we are "taking off together". 2020 has not always been pleasant, but we will get through it together. 
+                        </p>
+                         
+                    </div>
+                </section>
+                <section className='profile'>
+                    <div>
+                        <img className='avatar' alt='avatar' src='/assets/pictures/profile.png'/>
+                        <p>Nha Trang, Vietnam</p>
+                    </div>
+                    <div>
+                        <img className='avatar' alt='avatar' src='/assets/pictures/profile3.png'/>
+                        <p>Osaka, Japan</p>
+                    </div>
+                </section>
+                
             </div>
            
         )
@@ -26,16 +42,12 @@ export default class Bio extends Component{
         return(
             <div className='aboutMe'> 
                 <section>
-                    <h2>Introduction:</h2>
+                    <h2>Summary:</h2>
                     <div className='text'>
                         <p>
-                            <FontAwesomeIcon icon='user-ninja' className='awesome'/>
-                            Hi, my name is Duy. "Duy", in Vietnamese, means "unique"/"only one".I am a software engineer with strong aviation and management background. I love how coding lets me see my untapped potential, uncovers my creativity, and keeps me awake at night. 
+                            <FontAwesomeIcon icon='bug' className='awesome'/>
+                            Software engineer with strong aviation and management background. Proficient in web-development (front-end, back-end) and Javascript. Skills include analytical thinking and creative problem solving. Experienced in working in a dynamic and fast paced team environment.
                         </p>
-                        <p>
-                            <FontAwesomeIcon icon='plane' className='awesome'/>I also love airplanes, and when we are "taking off together"
-                        </p>
-                         
                     </div>
                 </section>
                 <section>
