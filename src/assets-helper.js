@@ -32,6 +32,9 @@ export const projects=[
             "Weather, safety info etc..."
 
         ],
+        techs:[
+            'jQuery','HTML5','CSS3','Third party APIs'
+        ],
         links:[
             {name:'LIVE', url:'https://duyluu90.github.io/API-HACK-CAPSTONE/'},
             {name:'Github', url:'https://github.com/DuyLuu90/API-HACK-CAPSTONE'}
@@ -53,6 +56,9 @@ export const projects=[
             'Data protection (bcerypt, jwt)',
             'FOR ADMIN: data management, publish/ubpublish a movie, block/unblock a user'
         ],
+        techs:[
+            'React','Node','PostgreSQL','dBeaver','CSS3'
+        ],
         links:[
             {name:'LIVE', url:'https://drama-pedia.vercel.app/'},
             {name:'Client', url:'https://github.com/DuyLuu90/First-Capstone-Client'},
@@ -72,6 +78,9 @@ export const projects=[
             'Per-day tracking of breakfast,lunch and dinner',
             "Calendar allows easy access to daily meals and monthly calorie total",
             "Username/password retrieval"
+        ],
+        techs:[
+            'React','Yarn', 'Node','PostgreSQL','dBeaver','CSS3'
         ],
         links:[
             {name:'LIVE', url:'https://calorie-counter-client.vercel.app/'},

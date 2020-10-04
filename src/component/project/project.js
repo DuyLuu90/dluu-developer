@@ -17,8 +17,9 @@ export default class Project extends Component{
         displaySummary: true
     }
     renderSummary(){
-        const {overview,features,links}= this.props.project
+        const {overview,features,links, techs}= this.props.project
         const featureList= features.map((item,i)=><p key={i}><FontAwesomeIcon icon='thumbs-up' className='awesome'/>{item}</p>)
+        const techList= techs.map((item,i)=><p key={i}><FontAwesomeIcon icon='cog' className='awesome'/>{item}</p>)
         const linkList= links.map((obj,i)=>(
             <div key={i}>
                 <a href={obj.url} target='_blank' rel="noopener noreferrer">{obj.name}</a>
@@ -32,8 +33,12 @@ export default class Project extends Component{
                 <div>
                     {featureList}
                 </div>
-                <h3>Learn more:</h3>
+                <h3>Technologies:</h3>
                 <div>
+                    {techList}
+                </div>
+                <h3>Learn more:</h3>
+                <div className='links'>
                      {linkList}
                 </div> 
             </div>
