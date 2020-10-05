@@ -32,7 +32,7 @@ export default class AllProjects extends Component{
                 <h2>MY PROJECTS</h2>
                 <div>
                     <nav className='projects_nav'>
-                        <span  className={tabId===1?'active':''} onClick={this.displayProject1} >travelBucket</span>
+                        <span  className={tabId===1?'active':''} onClick={this.displayProject1} >travelPocket</span>
                         <span  className={tabId===2?'active':''} onClick={this.displayProject2} >dramaPEDIA</span>
                         <span  className={tabId===3?'active':''} onClick={this.displayProject3} >myCalories</span>
                     </nav>
