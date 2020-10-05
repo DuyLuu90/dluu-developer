@@ -43,6 +43,17 @@ export default class Bio extends Component{
         )
     }
     renderAboutMe=()=>{
+        /*
+        <img src={'/assets/logos/node.png'} alt='node' />
+        <img src={'/assets/logos/mocha.png'} alt='mocha' />
+        <img src={'/assets/logos/postgreSQL.png'} alt='postgreSQL' />
+
+        <img src={'/assets/logos/HTML5.png'} alt='html5' />
+        <img src={'/assets/logos/react192.png'} alt='react' />
+        <img src={'/assets/logos/jQuery.png'} alt='jQuery' />
+        <img src={'/assets/logos/css3.png'} alt='css' />
+        
+        */ 
         return(
             <div className='aboutMe'> 
                 <section>
@@ -76,27 +87,21 @@ export default class Bio extends Component{
                     <div className='skills'>
                         <div className='skill'>
                             <h3>Front-End:</h3>
-                            <div className='techLogos'>
-                                <img src={'/assets/logos/HTML5.png'} alt='html5' />
-                                <img src={'/assets/logos/react192.png'} alt='react' />
-                                <img src={'/assets/logos/jQuery.png'} alt='jQuery' />
-                                <img src={'/assets/logos/css3.png'} alt='css' />
+                            <div className='techs'>
+                                <img src={'/assets/logos/frontend.png'} alt='frontend' />
                             </div>
                         </div>
 
                         <div className='skill'>
                             <h3>Back-End:</h3>
-                            <div className='techLogos'>
-                                <img src={'/assets/logos/node.png'} alt='node' />
-                                <img src={'/assets/logos/mocha.png'} alt='mocha' />
-                                <img src={'/assets/logos/postgreSQL.png'} alt='postgreSQL' />
+                            <div className='techs'>
+                                <img src={'/assets/logos/backend.png'} alt='backend' />
                             </div>
-                            
                         </div>
 
                         <div className='skill'>
                             <h3>Dev Tools:</h3>
-                            <div className='techLogos'>
+                            <div className='techs'>
                                 <img src={'/assets/logos/chromeTools.png'} alt='devTools' />
                             </div> 
                         </div>
