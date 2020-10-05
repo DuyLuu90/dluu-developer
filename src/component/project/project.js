@@ -14,7 +14,7 @@ export default class Project extends Component{
         }
     }
     state={
-        displaySummary: true
+        displaySummary: false
     }
     renderSummary(){
         const {overview,features,links, techs}= this.props.project
@@ -65,8 +65,8 @@ export default class Project extends Component{
         return (
             <div className='project'>
                 <nav className='project_nav'>
-                    <span className={displaySummary?'highlighted':''} onClick={()=>this.setState({displaySummary:true})}>Summary</span>
                     <span className={!displaySummary?'highlighted':''} onClick={()=>this.setState({displaySummary:false})}>Screenshots</span>
+                    <span className={displaySummary?'highlighted':''} onClick={()=>this.setState({displaySummary:true})}>Summary</span>   
                 </nav>
                 <div>
                     {main}

@@ -2,6 +2,10 @@
     text-align: center;
     padding: 20px;
 }
+.home h1{
+    color: rgba(12, 10, 104, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .home img {
     margin: 20px auto;
 }

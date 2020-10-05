@@ -28,7 +28,7 @@ export default class NavBar extends Component{
             <nav className='app_nav'>
                 <h1>
                     <Link to='/'aria-label='home-page'><FontAwesomeIcon className="nav_icon" icon='code'/>
-                        {' '}{' '}Luu's portfolio
+                        {' '}{' '}DUY LUU
                     </Link>
                 </h1>
                 <div className='menu'>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
 import './bio.css'
 
@@ -11,11 +11,15 @@ export default class Bio extends Component{
         return(
             <div className='gallery'>
                 <section>
-                    <h2>Introduction</h2>
+                    <h2>Here's a litle bit about ME</h2>
                     <div className='text'>
                         <p>
                             <FontAwesomeIcon icon='user-ninja' className='awesome'/>
-                            I am Duy Luu. My name, in Vietnamese, means "UNIQUE" or "ONLY ONE". I have been coding for about a year and I love how it lets me see my untapped potential, uncovers my creativity, and keeps me awake at night. 
+                            My name, in Vietnamese, means "UNIQUE" or "ONLY ONE". I have been coding for about a year, and I love how it lets me see my untapped potential, uncovers my creativity, and keeps me awake at night. 
+                        </p>
+                        <p>
+                            <FontAwesomeIcon icon='users-cog' className='awesome'/>
+                            I take pride in my work and would love to be part of a team where everyone understands their responsibilities and contributes in their own way. I always welcome new ideas and honest feedback, as I believe this is how we can learn from and improve each other.
                         </p>
                         <p>
                             <FontAwesomeIcon icon='plane' className='awesome'/>I also love airplanes, and when we are "taking off together". 2020 has not always been pleasant, but we will get through it together. 
@@ -43,18 +47,28 @@ export default class Bio extends Component{
             <div className='aboutMe'> 
                 <section>
                     <h2>Summary:</h2>
-                    <div className='text'>
+                    <div className='text'>  
                         <p>
                             <FontAwesomeIcon icon='bug' className='awesome'/>
-                            Software engineer with strong aviation and management background. Proficient in web-development (front-end, back-end) and Javascript. Skills include analytical thinking and creative problem solving. Experienced in working in a dynamic and fast paced team environment.
+                            <span>
+                                I am a <strong>Full-stack Developer</strong> with solid aviation and management background. My interests include technology, history, airplanes, and travel. I am currently looking for work. Feel free to contact me or browse some of my projects using the link <strong><Link to={'/project'}>HERE</Link></strong>.
+                            </span>
                         </p>
                     </div>
                 </section>
                 <section>
                     <h2>Education</h2>
                     <div className='text'>
-                        <p><FontAwesomeIcon icon='school' className='awesome'/>Bachelor's degree in Air Traffic Management from Arizona State University</p>
-                        <p><FontAwesomeIcon icon='school'className='awesome'/>Certified Full stack Developer from Thinkful</p>
+                        <p>
+                            <FontAwesomeIcon icon='school' className='awesome'/>
+                            <span>
+                                Bachelor's degree in Air Traffic Management from <strong>Arizona State University</strong>
+                            </span>
+                        </p>
+                        <p>
+                            <FontAwesomeIcon icon='school'className='awesome'/>
+                            <span>Certified Full-stack Developer from <strong>Thinkful</strong></span>
+                        </p>
                     </div>
                 </section>
                 <section>
@@ -87,12 +101,6 @@ export default class Bio extends Component{
                             </div> 
                         </div>
                     </div>
-                    
-                    
-                   
-        
-                    
-                    
                 </section>
 
             </div>
@@ -106,8 +114,8 @@ export default class Bio extends Component{
         return (
             <div className='bio'>
                 <nav>
-                    <span className={!displayImage?'active':''} onClick={this.hideImage}>About me</span>
-                    <span className={displayImage?'active':''} onClick={this.displayImage}>Gallery</span>
+                    <span className={!displayImage?'active':''} onClick={this.hideImage}>Portfolio</span>
+                    <span className={displayImage?'active':''} onClick={this.displayImage}>About me</span>
                 </nav>
                 {bio}
             </div>

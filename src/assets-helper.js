@@ -24,13 +24,12 @@ export const logos=[
 export const projects=[
     {
         name:'travelPocket',
-        overview:'This convenient application allows users to select one of thousands cities in the world and see what is happening for that city in just one click. Users will also be able to select any date and see the top destinations (domestic/international) from that city.',
+        overview:'As I called myself a hodophile, I always wanted to build an app that would allow me and other users to choose one of the thousands of cities in the world and see what was happening for that city in just one click. With travelPocket, users will also be able to choose any date and see the top destinations (domestic/international) from that city.',
         features:[
             'Google Map API to see the location of the airport that serves the city',
             "Youtube API to see the top trending videos in the country",
-            "Top destinations (include airlines, ticket prices and booking links)",
-            "Weather, safety info etc..."
-
+            "Top destinations (include airlines, ticket prices, and booking links)",
+            "Weather, safety info, etc..."
         ],
         techs:[
             'jQuery','HTML5','CSS3','Third party APIs'
@@ -48,13 +47,13 @@ export const projects=[
     },
     {
         name:'dramaPedia',
-        overview:'This is my first full stack capstone, as a junior Developer, to demonstrate my mastery of React, Node and PostgresSQL. For this capstone, I built both the client and the API to support the app. Inspired by many awesome online movie websites, my app allows users to see a variety of Films/TV Series from many countries around the world. For user convenience, my app has feature to sort them by genres, year and country of origin.',
+        overview:'Inspired by many awesome online movie applications, dramaPEDIA allows users to see a variety of Films/TV Series from many countries around the world. Users will be able to create new accounts and have their own personal pages where they can save their favorite movies. After they register, they can rate, and post their reviews for a specific movie, as well as to interact with other users.',
         features:[
             'Movie details, user pages, artist pages',
-            'Create, edit, delete user info',
+            'Create, edit, delete the user info',
             'Post, edit, delete, rate(upvote,downvote) movie reviews',
-            'Data protection (bcerypt, jwt)',
-            'FOR ADMIN: data management, publish/ubpublish a movie, block/unblock a user'
+            'Data protection (bcrypt, json web token)',
+            'FOR ADMIN: data management, publish/unpublish a movie, block/unblock a user'
         ],
         techs:[
             'React','Node','PostgreSQL','dBeaver','CSS3'
@@ -73,10 +72,10 @@ export const projects=[
     },
     {
         name:'myCalories',
-        overview:'This app will help you keep track of what you eat during the day, the total calories you eat in a day, and the total you eat in a month. We also provide you with links to additional resources to pursure your fitness goals',
+        overview:'myCalories is an app that will help you keep track of what you eat during the day, the total calories you eat in a day, and the total you eat in a month. We also provide you with links to additional resources to pursue your fitness goals',
         features:[
             'Per-day tracking of breakfast,lunch and dinner',
-            "Calendar allows easy access to daily meals and monthly calorie total",
+            "The calendar allows easy access to daily meals and monthly calorie total",
             "Username/password retrieval"
         ],
         techs:[

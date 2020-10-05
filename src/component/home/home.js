@@ -7,9 +7,8 @@ export default class Home extends Component{
     render(){
         return (
             <div className='home'>
-                <h1>Welcome</h1>
-                <img className='homeImg'src='/assets/pictures/flights.jpg' alt='flights'/>
-                <h2>Connect</h2>
+                <h1>HI MY NAME IS DUY</h1>
+                
                 <div>
                     <a href='https://github.com/DuyLuu90' target='_blank' rel="noopener noreferrer">
                         <img src={'/assets/logos/gitHub.png'} alt='github' className='logo'/>
@@ -22,7 +21,7 @@ export default class Home extends Component{
                     <p className='quote'>"A goal is a dream with a deadline"</p>
                     <p>- Napoleon Hill</p>
                 </div>
-
+                <img className='homeImg'src='/assets/pictures/flights.jpg' alt='flights'/>
 
             </div>
         )
