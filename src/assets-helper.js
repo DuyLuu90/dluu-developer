@@ -35,8 +35,8 @@ export const projects=[
             'jQuery','HTML5','CSS3','Third party APIs'
         ],
         links:[
-            {name:'LIVE', url:'https://duyluu90.github.io/API-HACK-CAPSTONE/'},
-            {name:'Github', url:'https://github.com/DuyLuu90/API-HACK-CAPSTONE'}
+            {name:'LIVE', url:'https://duyluu90.github.io/travel_POCKET/'},
+            {name:'Github', url:'https://github.com/DuyLuu90/travel_POCKET'}
 
         ],
         screenshots:[
